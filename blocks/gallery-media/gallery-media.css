@@ -1,0 +1,9 @@
+.gallery-media {
+  display: grid;
+  grid-template-columns: repeat(4, 224px);
+  grid-template-rows: repeat(3, 224px);
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style: none;
+}

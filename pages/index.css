@@ -27,3 +27,6 @@
 @import url(../blocks/project/__card/_number/project__card_number_2.css);
 @import url(../blocks/project/__card/_number/project__card_number_3.css);
 @import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery-media/gallery-media.css);
+@import url(../blocks/gallery-media/__image/gallery-media__image.css);
