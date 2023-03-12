@@ -1,0 +1,11 @@
+.button_place_portfolio {
+  position: absolute;
+  bottom: 28px;
+  left: 30px;
+  padding: 10px 25px;
+  background-color: #EC1F46;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  color: #FFFFFF;
+}

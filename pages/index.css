@@ -12,6 +12,7 @@
 @import url(../blocks/hero/__text/hero__text.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_hero.css);
+@import url(../blocks/button/_place/button_place_portfolio.css);
 @import url(../blocks/features/features.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/table/table.css);
@@ -19,3 +20,10 @@
 @import url(../blocks/table/__icon/table__icon.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__card/project__card.css);
+@import url(../blocks/project/__card/_number/project__card_number_1.css);
+@import url(../blocks/project/__card/_number/project__card_number_2.css);
+@import url(../blocks/project/__card/_number/project__card_number_3.css);
+@import url(../blocks/project/__title/project__title.css);
