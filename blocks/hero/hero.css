@@ -1,0 +1,9 @@
+.hero {
+  background-color: #1B2944;
+  width: 944px;
+  min-height: 384px;
+  margin: 0 auto;
+  padding: 113px 168px 71px;
+  display: flex;
+  justify-content: space-between;
+}
