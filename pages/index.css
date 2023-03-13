@@ -42,3 +42,11 @@
 @import url(../blocks/contacts-form/__item/_el/contacts-form__item_el_name.css);
 @import url(../blocks/contacts-form/__item/_el/contacts-form__item_el_phone.css);
 @import url(../blocks/contacts-form/__title/contacts-form__title.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/cotnacts-social/contacts-social.css);
+@import url(../blocks/cotnacts-social/__connect/contacts-social__connect.css);
+@import url(../blocks/cotnacts-social/__items/contacts-social__items.css);
+@import url(../blocks/cotnacts-social/__links/contacts-social__links.css);
+@import url(../blocks/cotnacts-social/__text/contacts-social__text.css);
+@import url(../blocks/cotnacts-social/__title/contacts-social__title.css);
+@import url(../blocks/cotnacts-social/__politic/contacts-social__politic.css);

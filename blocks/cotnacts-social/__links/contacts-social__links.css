@@ -1,0 +1,4 @@
+.contacts-social__links {
+  display: flex;
+  gap: 50px;
+}

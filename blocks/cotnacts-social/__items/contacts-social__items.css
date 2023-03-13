@@ -1,0 +1,4 @@
+.contacts-social__items {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,10 @@
+.contacts-social__politic {
+  text-decoration: underline;
+  color: #949494;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
