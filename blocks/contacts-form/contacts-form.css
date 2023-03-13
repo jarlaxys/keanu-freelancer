@@ -1,0 +1,10 @@
+.contacts-form {
+  width: 464px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: -5px 5px 0px #FFC41D;
+  display: flex;
+  flex-direction: column;
+  margin-top: 88px;
+  margin-bottom: 6px;
+}

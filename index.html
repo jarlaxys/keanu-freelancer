@@ -90,23 +90,72 @@
     </section>
     <section class="gallery">
       <ul class="gallery-media">
-        <li><img class="gallery-media__image" src="./images/gallery01.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery02.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery03.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery04.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery05.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery05.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery07.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery08.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery09.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery10.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery11.png" alt=""></li>
-        <li><img class="gallery-media__image" src="./images/gallery12.png" alt=""></li>
+        <li><img class="gallery-media__image" src="./images/gallery01.png" alt="1"></li>
+        <li><img class="gallery-media__image" src="./images/gallery02.png" alt="2"></li>
+        <li><img class="gallery-media__image" src="./images/gallery03.png" alt="3"></li>
+        <li><img class="gallery-media__image" src="./images/gallery04.png" alt="4"></li>
+        <li><img class="gallery-media__image" src="./images/gallery05.png" alt="5"></li>
+        <li>
+          <div class="player"><video id="video-1" src="./video/Video16.mp4" class="gallery-media__video"></video>
+            <div onclick="document.getElementById('video-1').play()">
+              <button class="control"><img src="./images/icon/play_circle_filled.svg" alt="Плей"></button>
+            </div>
+          </div>
+        </li>
+        <li><img class="gallery-media__image" src="./images/gallery07.png" alt="7"></li>
+        <li><img class="gallery-media__image" src="./images/gallery08.png" alt="8"></li>
+        <li><img class="gallery-media__image" src="./images/gallery09.png" alt="9"></li>
+        <li><img class="gallery-media__image" src="./images/gallery10.png" alt="10"></li>
+        <li>
+          <div class="player"><video id="video-2" src="./video/Video1_Timelapse.mp4"
+              class="gallery-media__video"></video>
+            <div onclick="document.getElementById('video-2').play()">
+              <button class="control"><img src="./images/icon/play_circle_filled.svg" alt="Плей"></button>
+            </div>
+          </div>
+        </li>
+        <li><img class="gallery-media__image" src="./images/gallery12.png" alt="12"></li>
       </ul>
     </section>
-
   </main>
-  <footer class="contacts">
+  <footer class="footer">
+    <h2 class="section-title">Свяжитесь со мной</h2>
+    <div class="contacts-block">
+      <form action="#" class="contacts-form" method="POST">
+        <h2 class="contacts-form__title">Можете просто оставить заявку, я позвоню вам сегодня</h2>
+        <input class="contacts-form__item contacts-form__item_el_name" type="text" id="name" name="name"
+          placeholder="Ваше имя" required>
+        <input class="contacts-form__item contacts-form__item_el_phone" type="text" id="phone" name="phone"
+          placeholder="Ваш телефон" required>
+        <button class="contacts-form__button" type="submit">Бесплатная консультация</button>
+      </form>
+    </div>
+    <div class="cotnacts-social">
+      <div class="cotnacts-social__conection">
+        <div class="cotnacts-social__conection_el_tel">
+          <h3 class="cotnacts-social__title">Телефон</h3>
+          <a href="#" class="link cotnacts-social__text">+7 999 123 45 67</a>
+        </div>
+        <div class="cotnacts-social__conection_el_mail">
+          <h3 class="cotnacts-social__title">Почта</h3>
+          <a href="#" class="link cotnacts-social__text">ivanov@mail.ru</a>
+        </div>
+      </div>
+      <div class="cotnacts-social__social-links">
+        <h3 class="cotnacts-social__title">Соцсети</h3>
+        <div class="cotnacts-social__links">
+          <a href="#" class="link cotnacts-social__text">t.me/ivanov</a>
+          <a href="#" class="link cotnacts-social__text">vk.me/ivanov</a>
+          <a href="#" class="link cotnacts-social__text">fb.me/ivanov</a>
+        </div>
+      </div>
+      <ul class="socials">
+        <li><a href="#" class="link socials__link"><img src="./images/icon/github.svg" alt="Гитхаб"></a></li>
+        <li><a href="#" class="link socials__link"><img src="./images/icon/twitter.svg" alt="Твитер"></a></li>
+        <li><a href="#" class="link socials__link"><img src="./images/icon/instagram.svg" alt="Инстаграм"></a></li>
+        <li><a href="#" class="link socials__link"><img src="./images/icon/facebook.svg" alt="Фейсбук"></a></li>
+      </ul>
+    </div>
   </footer>
 </body>
 

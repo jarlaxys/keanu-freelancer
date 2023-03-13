@@ -1,0 +1,10 @@
+.contacts-form__item {
+  margin: 20px auto 0;
+  width: 304px;
+  height: 31px;
+  padding: 20px 25px 19px 52px;
+  border-radius: 5px;
+  border: none;
+  background-color:  #F8F8F8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+}

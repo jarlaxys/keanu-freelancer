@@ -1,0 +1,15 @@
+.contacts-form__button {
+  padding: 0;
+  margin: 30px 42px 61px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1B2944;
+  text-transform: uppercase;
+  width: 380px;
+  height: 66px;
+  background-color: #FFBB01;
+  box-shadow: 0px 4px 0px #B68500;
+  border: none;
+  border-radius: 5px;
+}

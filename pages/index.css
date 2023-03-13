@@ -30,3 +30,15 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery-media/gallery-media.css);
 @import url(../blocks/gallery-media/__image/gallery-media__image.css);
+@import url(../blocks/gallery-media/__video/gallery-media__video.css);
+@import url(../blocks/gallery-media/__block-video/gallery-media__block-video.css);
+@import url(../blocks/control/control.css);
+@import url(../blocks/player/player.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/contacts-block/contacts-block.css);
+@import url(../blocks/contacts-form/contacts-form.css);
+@import url(../blocks/contacts-form/__button/contacts-form__button.css);
+@import url(../blocks/contacts-form/__item/contacts-form__item.css);
+@import url(../blocks/contacts-form/__item/_el/contacts-form__item_el_name.css);
+@import url(../blocks/contacts-form/__item/_el/contacts-form__item_el_phone.css);
+@import url(../blocks/contacts-form/__title/contacts-form__title.css);
