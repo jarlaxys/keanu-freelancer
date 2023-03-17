@@ -9,3 +9,8 @@
   line-height: 130%;
   color: #FFFFFF;
 }
+
+.button_place_portfolio:active {
+  transform: none;
+  transform: scale(1.1);
+}

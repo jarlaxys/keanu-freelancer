@@ -1,4 +1,11 @@
 .contacts-social__text {
   margin-top: 20px;
   margin-bottom: 32px;
+  transition: color .2s;
+}
+
+.contacts-social__text:hover {
+  transform: scale(1);
+  text-decoration: underline;
+  color: #c7cbfc;
 }

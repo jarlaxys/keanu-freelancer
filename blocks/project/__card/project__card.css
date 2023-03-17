@@ -3,4 +3,10 @@
   width: 304px;
   height: 304px;
   list-style: none;
+
+}
+
+.project__card:hover {
+  transform: scale(1.1, 1.1);
+  margin: 0 30px;
 }

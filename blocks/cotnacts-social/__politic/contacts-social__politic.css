@@ -7,4 +7,11 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+  transform: color .2s ease;
+}
+
+.contacts-social__politic:hover {
+  transform: none;
+  color: white;
+
 }
