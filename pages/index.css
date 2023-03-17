@@ -21,12 +21,12 @@
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__title/table__title.css);
 @import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__card/project__card.css);
 @import url(../blocks/project/__card/_number/project__card_number_1.css);
 @import url(../blocks/project/__card/_number/project__card_number_2.css);
 @import url(../blocks/project/__card/_number/project__card_number_3.css);
-@import url(../blocks/project/__title/project__title.css);
 @import url(../blocks/project/__card-title/project__card-title.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery-media/gallery-media.css);
